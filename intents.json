@@ -1,0 +1,46 @@
+{"intents": [
+    {"tag": "greeting",
+    "patterns": ["Hi there", "How are you", "Is anyone there?", "Hello", "Hey", "Hi", "Good morning", "Good evening"],
+    "responses": ["Hello", "Good to see you again", "Hi there, hoew can I help you?"],
+     "context": [""]
+
+    },
+    {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "Talk to you later"],
+    "responses": ["See you!", "Have a nice day", "Bye! Come back again"],
+    "context": [""]
+
+    },
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful"],
+    "responses": ["My pleasure", "You're Welcome"],
+    "context": [""]
+    
+    },
+    {"tag": "affirm",
+    "patterns": ["Is this correct?", "Can you help me?", "Is this true?"],
+    "responses": ["Yes", "Indeed", "Of course", "That sounds good", "Correct"],
+    "context": [""]
+    },
+    {"tag": "query",
+    "patterns": ["Can you find me books by {author:Chinua Achebe}?"],
+    "responses": ["Yes. Book available in the database."],
+    "context": [""]
+    
+    },
+    {"tag": "book availability",
+    "patterns": ["Is Pride and Prejudice available?", "Can I borrow The Great Gatsby?", "availability of Half of a Yellow Sun"],
+    "responses": ["Yes.", "Yes please. Happy reading", "No, come another time"], 
+    "context": [""]
+
+    },
+    {"tag": "library_info",
+    "patterns": ["What are the opening hours?", "Where is the library located?", "How do I renew a book?", "what time does the library close"],
+    "responses": ["Our library opens at 8:00 AM", "The library is located at the University of Nairobi-Main campus, along University way", "Kindly visit the library official website", "The library closes at 9:00 PM"],
+    "context": [""]
+     
+     }
+
+  ]
+
+}
